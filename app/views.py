@@ -54,5 +54,5 @@ def get_url(sh_url):
 def follow(generated_link):
 	return redirect(get_url(generated_link))
 
-#if __name__ == "__main__":
-#	app.run(debug=True)
+if __name__ == "__main__":
+	app.run(debug=True)
