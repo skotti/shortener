@@ -1,0 +1,12 @@
+<html>
+<body>
+	<head>
+		<h1>Make your URL shorter</h1>
+	</head>
+	<form method="post" action="{{ url_for('new_url') }}">
+		<input type="url" class="form-control" name="long_url" placeholder="long_url" value = {{url}}></input>
+		<button type="submit" class="btn btn-default">Make nice!</button>
+		<input type="text" class="form-control" name="short_url" placeholder="new_url" value = {{newurl}}></input>
+	</form>
+</body>
+</html>
